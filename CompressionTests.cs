@@ -8,7 +8,8 @@ namespace Mavis.Compression
         [Fact]
         public void TestOne() {
             var compression = new Compression();
-            var compressed = compression.Compress("foobar");
+            compression.Decompress([]);
+            var compressed = compression.Compress("aaaaaabbbbbbccccccddddddeeeeffffghhhhijjjjjkkkkkkkkkkkkkkkkkkkkklllmmm");
         }
     }
 }
